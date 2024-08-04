@@ -1,6 +1,6 @@
 .section.partners {
   --font-color: #212121;
-  --bg-color: #26B6CA10;
+  --bg-color: #26b6ca10;
 
   background: var(--bg-color);
   color: var(--font-color);

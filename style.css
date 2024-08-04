@@ -1,16 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
-@import './assets/css/navbar.css';
-@import './assets/css/landing.css';
-@import './assets/css/about.css';
-@import './assets/css/titlePartner.css';
-@import './assets/css/associate.css';
-@import './assets/css/reach.css';
-@import './assets/css/news.css';
-@import './assets/css/partners.css';
-@import './assets/css/gallery.css';
-@import './assets/css/contact.css';
-@import './assets/css/footer.css';
-
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import "./assets/css/navbar.css";
+@import "./assets/css/landing.css";
+@import "./assets/css/about.css";
+@import "./assets/css/titlePartner.css";
+@import "./assets/css/associate.css";
+@import "./assets/css/reach.css";
+@import "./assets/css/news.css";
+@import "./assets/css/partners.css";
+@import "./assets/css/gallery.css";
+@import "./assets/css/contact.css";
+@import "./assets/css/footer.css";
 
 * {
   margin: 0;
@@ -23,11 +22,18 @@ html {
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   min-height: 100vh;
   background: linear-gradient(to bottom, #212121 0% 20%, #ffffff 20% 100%);
   overflow-x: hidden;
-  --grad: linear-gradient(90deg, #26B6CA 49.07%, #30B9C7 56.02%, #4DBFBE 68.04%, #7ACBAF 83.68%, #B1D89E 100%);
+  --grad: linear-gradient(
+    90deg,
+    #26b6ca 49.07%,
+    #30b9c7 56.02%,
+    #4dbfbe 68.04%,
+    #7acbaf 83.68%,
+    #b1d89e 100%
+  );
 }
 
 @media (min-width: 800px) {
@@ -38,11 +44,11 @@ body {
   }
 
   ::-webkit-scrollbar-thumb {
-    background: #30B9C7;
+    background: #30b9c7;
   }
 
   ::-webkit-scrollbar-thumb:hover {
-    background: #7ACBAF;
+    background: #7acbaf;
   }
 
   ::-webkit-scrollbar-track {
@@ -81,7 +87,7 @@ a:active {
 }
 
 .section .title::after {
-  content: '';
+  content: "";
   position: absolute;
   left: 50%;
   bottom: -0.5rem;
@@ -170,7 +176,7 @@ a:active {
   width: 7px;
   height: 7px;
   border-radius: 50%;
-  background: #26B6CA;
+  background: #26b6ca;
   margin: -4px 0 0 -4px;
 }
 
@@ -255,7 +261,6 @@ a:active {
     transform: rotate(360deg);
   }
 }
-
 
 @media (max-width: 850px) {
   #preloader .lds-roller {

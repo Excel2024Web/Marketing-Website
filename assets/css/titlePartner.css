@@ -1,72 +1,72 @@
 .section.title-partners {
-    --font-color: #212121;
-    --bg-color: #fff;
-    --color: #26B6CA;
-    padding: 5rem 0;
-    background: var(--bg-color);
+  --font-color: #212121;
+  --bg-color: #fff;
+  --color: #26b6ca;
+  padding: 5rem 0;
+  background: var(--bg-color);
 
-    gap: 4rem;
+  gap: 4rem;
 }
 
 .section.title-partners .container {
-    width: 200px;
-    height: 200px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-    padding: 20px;
-    cursor: pointer;
+  padding: 20px;
+  cursor: pointer;
 }
 
 .section.title-partners .container img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 
 .section.title-partners .title {
-    color: var(--font-color);
+  color: var(--font-color);
 }
 
 .section.title-partners .content {
-    margin-top: -2rem;
-    display: flex;
-    gap: 1rem;
-    flex-direction: column;
-    align-items: center;
+  margin-top: -2rem;
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  align-items: center;
 }
 
 .section.title-partners .content .heading {
-    font-size: 1.6rem;
-    font-weight: 700;
-    width: 90%;
-    text-align: center;
+  font-size: 1.6rem;
+  font-weight: 700;
+  width: 90%;
+  text-align: center;
 }
 
 .section.title-partners .content .para {
-    font-size: 1.1rem;
-    font-weight: 500;
-    opacity: 0.8;
-    width: 60%;
-    text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  opacity: 0.8;
+  width: 60%;
+  text-align: center;
 }
 
 @media (max-width: 500px) {
-    .section.title-partners {
-        padding: 3rem 2rem;
-    }
+  .section.title-partners {
+    padding: 3rem 2rem;
+  }
 
-    .section.title-partners .content .heading {
-        font-size: 1.3rem;
-        width: 100%;
-    }
+  .section.title-partners .content .heading {
+    font-size: 1.3rem;
+    width: 100%;
+  }
 
-    .section.title-partners .content .para {
-        font-size: 0.9rem;
-        width: 100%;
-    }
+  .section.title-partners .content .para {
+    font-size: 0.9rem;
+    width: 100%;
+  }
 }

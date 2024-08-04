@@ -1,7 +1,7 @@
 .navbar {
   --bg: transparent;
   --text: #fff;
-  --color: #26B6CA;
+  --color: #26b6ca;
   --opacity: 0;
 
   position: sticky;
@@ -17,7 +17,6 @@
   justify-content: center;
 
   transition: all 0.5s;
-
 }
 
 .scrolled {
@@ -73,7 +72,6 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-
   }
 
   .scrolled {
@@ -114,7 +112,7 @@
     transition: all 0.5s;
   }
 
-  .navbar .excel-text img{
+  .navbar .excel-text img {
     object-fit: cover;
     width: 100px;
   }
@@ -143,7 +141,6 @@
 }
 
 @media (min-width: 850px) {
-
   .navbar .menu .item:hover {
     color: var(--color);
   }
@@ -157,7 +154,7 @@
     position: absolute;
     left: 50%;
     transform-origin: center center;
-    content: '';
+    content: "";
     height: 3px;
     border-radius: 3px;
     width: 20px;

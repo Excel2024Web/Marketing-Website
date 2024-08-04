@@ -1,68 +1,67 @@
 .section.associate {
-    --font-color: #fff;
-    --bg-color: #0c4c82;
+  --font-color: #fff;
+  --bg-color: #0c4c82;
 
-    background: var(--bg-color);
-    color: var(--font-color);
+  background: var(--bg-color);
+  color: var(--font-color);
 }
 
 .section.associate .container {
-    width: 80%;
+  width: 80%;
 }
 
 .section.associate .title {
-    color: var(--font-color);
+  color: var(--font-color);
 }
 
 .section.associate .title::after {
-    background: var(--font-color);
+  background: var(--font-color);
 }
 
 .section.associate .container .card {
-    width: 280px;
-    padding: 1rem 0;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 0.8rem;
-    overflow: hidden;
-    background: var(--font-color);
-    color: #212121;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    /* transition: transform 0.3s; */
-    /* cursor: pointer; */
+  width: 280px;
+  padding: 1rem 0;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8rem;
+  overflow: hidden;
+  background: var(--font-color);
+  color: #212121;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  /* transition: transform 0.3s; */
+  /* cursor: pointer; */
 }
 
 .section.associate .container .card .pic {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    padding: 1rem 0;
-    background: var(--font-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 1rem 0;
+  background: var(--font-color);
 }
 
 .section.associate .container .card img {
-    height: 120px;
+  height: 120px;
 }
 
 .section.associate .container .card .heading {
-    /* margin-top: 0.5rem; */
-    font-weight: 700;
-    font-size: 1.2rem;
-    cursor: pointer;
+  /* margin-top: 0.5rem; */
+  font-weight: 700;
+  font-size: 1.2rem;
+  cursor: pointer;
 }
 
 .section.associate .container .card .para {
-    font-weight: 500;
-    font-size: 0.9rem;
-    padding: 0 1.2rem;
-    opacity: 0.9;
-    height: 100px;
-    cursor: pointer;
-    text-align: center;
-
+  font-weight: 500;
+  font-size: 0.9rem;
+  padding: 0 1.2rem;
+  opacity: 0.9;
+  height: 100px;
+  cursor: pointer;
+  text-align: center;
 }
 
 /* @media (min-width: 700px) {
@@ -72,7 +71,7 @@
 } */
 
 @media (max-width: 700px) {
-    .section.associate .container {
-        width: 100%;
-    }
+  .section.associate .container {
+    width: 100%;
+  }
 }

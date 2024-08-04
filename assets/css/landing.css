@@ -1,0 +1,58 @@
+.landing {
+    position: relative;
+    height: 100vh;
+    background: #212121;
+
+    background-image: url("../img/landing.svg");
+    background-color: #212121;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 90%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    overflow: hidden;
+    transition: all 0.5s;
+}
+
+.landing .logo img {
+    width: 800px;
+}
+
+
+@media (min-width: 850px) and (max-width: 1350px) {
+    .landing .logo img {
+        width: 600px;
+    }
+}
+
+@media (max-width: 850px) {
+    .landing {
+        background-size: 100%;
+    }
+
+    .landing .logo img {
+        width: 400px;
+    }
+}
+
+@media (max-width: 600px) {
+    .landing {
+
+        background-image: url("../img/landing-mobile.svg");
+        background-size: 400px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        overflow: hidden;
+    }
+
+    .landing .logo img {
+        width: 350px;
+        transform: translate(-10px, -40px);
+    }
+}

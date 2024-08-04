@@ -1,0 +1,56 @@
+.section.reach {
+  --font-color: #fff;
+  --bg-color: #212121;
+
+  background: var(--bg-color);
+  color: var(--font-color);
+}
+
+.section.reach .container {
+  width: 80%;
+}
+
+.section.reach .title {
+  color: var(--font-color);
+}
+
+.section.reach .title::after {
+  background: #26B6CA;
+}
+
+.section.reach .container .card {
+  width: 200px;
+  height: 200px;
+  padding: 2rem 1rem;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  cursor: pointer;
+  transition: all 0.5s;
+  /* border: 3px solid #26B6CA; */
+}
+
+.section.reach .container .card img {
+  height: 80px;
+}
+
+.section.reach .container .card .heading {
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.section.reach .container .card .para {
+  margin-top: -0.5rem;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+@media (min-width: 700px) {
+  .reach .container .card:hover {
+    background: var(--font-color);
+    color: var(--bg-color);
+    transform: scale(1.03);
+  }
+}

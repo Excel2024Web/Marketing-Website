@@ -1,0 +1,129 @@
+/* Footer */
+
+.footer {
+    background: #212121;
+    padding: 1.5rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer .logo {
+    height: 100px;
+}
+
+.footer .logo.mec-logo {
+    height: 70px;
+}
+
+.footer .logo img {
+    object-fit: cover;
+    height: 100%;
+}
+
+.footer .content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+    color: #fff;
+}
+
+.footer .content .social {
+    display: flex;
+    gap: 0.7rem;
+    font-size: 1.2rem;
+}
+
+.footer .content .social i {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: all 0.3s;
+}
+
+.footer .content .social i:hover {
+    background: #1877f2;
+    /* background: linear-gradient(90deg, #0C4C82 -13.51%, #0D4F84 -12.59%, #187BA2 5.14%, #1F9BB8 20.99%, #24AFC5 34.24%, #26B6CA 43.28%, #30B9C7 50.27%, #4DBFBE 62.37%, #7ACBAF 78.1%, #B1D89E 94.53%); */
+}
+
+.footer .content .social i.fa-instagram:hover {
+    background: #c32aa3;
+}
+
+.footer .content .social i.fa-twitter:hover {
+    background: #1da1f2;
+}
+
+.footer .content .social i.fa-linkedin-in:hover {
+    background: #0a66c2;
+}
+
+.footer .content .text {
+    font-weight: 500;
+}
+
+.footer .content .text i {
+    width: 2rem;
+    font-size: 1.1rem;
+    text-align: center;
+    border-radius: 50%;
+    color: #26B6CA;
+}
+
+
+@media (max-width: 700px) {
+
+    .footer .logo {
+        height: 70px;
+    }
+
+    .footer .logo.mec-logo {
+        height: 50px;
+    }
+
+    .footer .content {
+        gap: 0.3rem;
+        font-size: 0.8rem;
+    }
+
+    .footer .content .social {
+        gap: 0.4rem;
+        font-size: 1rem;
+    }
+}
+
+
+@media (max-width: 540px) {
+    .footer .logo {
+        height: 50px;
+    }
+
+    .footer .logo.mec-logo {
+        height: 40px;
+    }
+}
+
+@media (max-width: 440px) {
+    .footer {
+        flex-wrap: wrap;
+        padding: 1.5rem 1.2rem;
+        gap: 1.5rem;
+    }
+
+    .footer .logo {
+        order: 1;
+    }
+
+    .footer .content {
+        order: 2;
+        gap: 0.3rem;
+        font-size: 0.8rem;
+        margin: auto auto 0 auto;
+    }
+}

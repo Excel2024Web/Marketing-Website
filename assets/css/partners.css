@@ -1,0 +1,81 @@
+.section.partners {
+  --font-color: #212121;
+  --bg-color: #26B6CA10;
+
+  background: var(--bg-color);
+  color: var(--font-color);
+  overflow: hidden;
+}
+
+.section.partners .title {
+  color: var(--font-color);
+}
+
+.orb {
+  width: 150px;
+  height: 150px;
+  display: inline;
+  margin: 0 24.7px;
+  float: left;
+  transition: all 0.2s ease-out;
+  opacity: 0.8;
+}
+
+#geogit {
+  width: 100px;
+  margin-top: 20px;
+  height: 100px;
+}
+
+.orb:hover {
+  transform: scale(1.2);
+  opacity: 1;
+}
+
+.marquee {
+  height: 200px;
+  width: 6350px;
+  border: none;
+  box-sizing: border-box;
+  position: relative;
+  margin: 10px 0 20px 0;
+}
+
+.marquee--inner {
+  display: block;
+  width: 200%;
+  margin: 20px 0;
+  position: absolute;
+  animation: marquee 50s linear infinite;
+}
+
+.marquee--inner:hover {
+  animation-play-state: paused;
+}
+
+/*.half {
+    float: left;
+    width: 10%;
+    }*/
+
+#sponsors span {
+  float: left;
+  width: 50%;
+}
+
+@keyframes marquee {
+  0% {
+    left: 0;
+  }
+
+  100% {
+    left: -100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .section.partners {
+    padding: 4rem 2rem 3rem;
+    gap: 2rem;
+  }
+}

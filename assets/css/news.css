@@ -1,0 +1,139 @@
+.section.news {
+    --font-color: #212121;
+    --bg-color: #fff;
+
+    background: var(--bg-color);
+    gap: 4rem;
+}
+
+.news .title {
+    color: var(--font-color);
+}
+
+
+.section.news .container .card {
+    position: relative;
+
+    width: 300px;
+    border-radius: 10px;
+    padding: 1rem;
+    background: var(--bg-color);
+    color: var(--font-color);
+
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    cursor: pointer;
+    /* transition: all 0.3s; */
+
+    border: 3px solid #0c4c8260;
+
+}
+
+.news .container .card .paper {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -80%);
+
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    width: 180px;
+    border-radius: 5px;
+
+    font-size: 0.8rem;
+    font-weight: 500;
+    padding: 0.5rem;
+
+    background: var(--bg-color);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.news .container .card .paper .paper-dp {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.news .container .card .pic {
+    width: 100%;
+    height: 160px;
+    border-radius: 8px;
+    overflow: hidden;
+    background: var(--font-color);
+}
+
+.news .container .card img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.news .container .card .tagline {
+    display: flex;
+    justify-content: space-between;
+    color: var(--font-color);
+    opacity: 0.7;
+}
+
+.news .container .card .tagline i {
+    font-size: 1rem;
+    margin-right: 0.2rem;
+}
+
+.news .container .card .tagline span {
+    font-size: 0.7rem;
+    font-weight: 600;
+}
+
+.news .container .card .news-title {
+    font-weight: 700;
+    font-size: 1.1rem;
+    height: 90px;
+}
+
+.news .container .card .read-btn {
+    width: 100%;
+    padding: 0.8rem 0;
+    border-radius: 5px;
+    cursor: pointer;
+
+    font-weight: 700;
+    font-size: 1rem;
+    color: var(--bg-color);
+    transition: all 0.3s;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #0c4c82;
+
+}
+
+.news .container .card:hover {
+    border: 3px solid #0c4c82;
+}
+
+.news .container .card .read-btn:hover {
+    background: #1c72b9;
+    color: var(--bg-color);
+}
+
+
+@media (max-width: 600px) {
+    .section.news {
+        gap: 3rem;
+    }
+
+    .section.news .container {
+        gap: 3rem;
+    }
+
+    .news .container .card {
+        width: 280px;
+    }
+}

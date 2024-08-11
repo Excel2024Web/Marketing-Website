@@ -1,7 +1,7 @@
 .navbar {
   --bg: transparent;
-  --text: #fff;
-  --color: #26b6ca;
+  --text:#ffffff;
+  --color:#C630C9;
   --opacity: 0;
 
   position: sticky;
@@ -11,6 +11,7 @@
   background: var(--bg);
   padding: 0 2rem;
   height: 4rem;
+  
 
   display: flex;
   align-items: center;
@@ -21,7 +22,7 @@
 
 .scrolled {
   --bg: #fff;
-  --text: #212121;
+  --text: #58C3EF;
   --opacity: 1;
 
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);

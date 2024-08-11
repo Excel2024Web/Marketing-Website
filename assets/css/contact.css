@@ -1,7 +1,7 @@
 .contact {
   --font-color: #212121;
   --bg-color: #fff;
-  background: #26b6ca30;
+  background:#339edc18;
 }
 
 .contact .title {
@@ -37,7 +37,7 @@
 .contact .container .card .top .bg {
   width: 100%;
   height: 120px;
-  background: linear-gradient(135deg, #26b6ca 20%, #30b9c7 70%, #b1d89e 100%);
+  background: #040A3D;;
   overflow: hidden;
 }
 
@@ -81,14 +81,14 @@
   align-items: center;
   justify-content: center;
 
-  color: #30b9c7;
+  color: #040A3D;
 
   transition: all 0.3s;
 }
 
 .contact .container .card .social i:hover {
   color: var(--bg-color);
-  background: #30b9c7;
+  background: #040A3D;
 }
 
 .contact .container .card img {

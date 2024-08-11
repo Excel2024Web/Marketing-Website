@@ -15,7 +15,7 @@
 }
 
 .section.reach .title::after {
-  background: #26b6ca;
+  background: linear-gradient(135deg, rgba(198,48,201,1) 0%, rgba(51,157,220,1) 88%);;
 }
 
 .section.reach .container .card {

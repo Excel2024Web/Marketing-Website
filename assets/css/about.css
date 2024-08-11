@@ -1,5 +1,5 @@
 .about {
-  --font-color: #212121;
+  --font-color: #040A3D;
   --bg-color: #fff;
 
   padding-left: 5rem;
@@ -81,7 +81,7 @@
   font-weight: 700;
   font-size: 1rem;
   color: var(--bg-color);
-  background: #0c4c82;
+  background: #040A3D;
   transition: all 0.3s;
 
   display: flex;
@@ -90,7 +90,7 @@
 }
 
 .about .read-btn:hover {
-  background: #1c72b9;
+  background: #1525b6;
 }
 
 @media (max-width: 600px) {
@@ -129,7 +129,7 @@
     font-weight: 700;
     font-size: 1rem;
     color: var(--bg-color);
-    background: #0c4c82;
+    background: #040A3D;
     transition: all 0.3s;
 
     display: flex;

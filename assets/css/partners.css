@@ -1,8 +1,11 @@
 .section.partners {
   --font-color: #212121;
-  --bg-color: #26b6ca10;
-
-  background: var(--bg-color);
+  --bg-color: #fff1ff;
+  background: linear-gradient(
+    135deg,
+    rgba(198, 48, 201, 0.1) 0%,
+    rgba(51, 157, 220, 0.1) 88%
+  );
   color: var(--font-color);
   overflow: hidden;
 }

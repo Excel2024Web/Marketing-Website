@@ -26,7 +26,11 @@ body {
   min-height: 100vh;
   background: linear-gradient(to bottom, #212121 0% 20%, #ffffff 20% 100%);
   overflow-x: hidden;
-  --grad: linear-gradient(135deg, rgba(198,48,201,1) 0%, rgba(51,157,220,1) 88%);;
+  --grad: linear-gradient(
+    135deg,
+    rgba(198, 48, 201, 1) 0%,
+    rgba(51, 157, 220, 1) 88%
+  );
 }
 
 @media (min-width: 800px) {
@@ -37,15 +41,15 @@ body {
   }
 
   ::-webkit-scrollbar-thumb {
-    background:#081371 ;
+    background: #212121;
   }
 
   ::-webkit-scrollbar-thumb:hover {
-    background: #01083e;
+    background: #212121;
   }
 
   ::-webkit-scrollbar-track {
-    background-color: #d2dfeb;
+    background-color: #ffffff;
   }
 
   ::-webkit-scrollbar-corner {
@@ -86,7 +90,11 @@ a:active {
   bottom: -0.5rem;
 
   transform: translateX(-50%);
-  background: linear-gradient(135deg, rgba(198,48,201,1) 0%, rgba(51,157,220,1) 88%);
+  background: linear-gradient(
+    135deg,
+    rgba(198, 48, 201, 1) 0%,
+    rgba(51, 157, 220, 1) 88%
+  );
   width: 30%;
   height: 5px;
   border-radius: 5px;
@@ -169,7 +177,11 @@ a:active {
   width: 7px;
   height: 7px;
   border-radius: 50%;
-  background:linear-gradient(135deg, rgba(198,48,201,1) 0%, rgba(51,157,220,1) 88%);;
+  background: linear-gradient(
+    135deg,
+    rgba(198, 48, 201, 1) 0%,
+    rgba(51, 157, 220, 1) 88%
+  );
   margin: -4px 0 0 -4px;
 }
 

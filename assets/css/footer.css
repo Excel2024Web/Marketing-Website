@@ -48,20 +48,35 @@
 }
 
 .footer .content .social i:hover {
-  background: #1877f2;
-  /* background: linear-gradient(90deg, #0C4C82 -13.51%, #0D4F84 -12.59%, #187BA2 5.14%, #1F9BB8 20.99%, #24AFC5 34.24%, #26B6CA 43.28%, #30B9C7 50.27%, #4DBFBE 62.37%, #7ACBAF 78.1%, #B1D89E 94.53%); */
+  background: linear-gradient(
+    135deg,
+    rgba(198, 48, 201, 1) 0%,
+    rgba(51, 157, 220, 1) 88%
+  ); /* background: linear-gradient(90deg, #0C4C82 -13.51%, #0D4F84 -12.59%, #187BA2 5.14%, #1F9BB8 20.99%, #24AFC5 34.24%, #26B6CA 43.28%, #30B9C7 50.27%, #4DBFBE 62.37%, #7ACBAF 78.1%, #B1D89E 94.53%); */
 }
 
 .footer .content .social i.fa-instagram:hover {
-  background: #c32aa3;
+  background: linear-gradient(
+    135deg,
+    rgba(198, 48, 201, 1) 0%,
+    rgba(51, 157, 220, 1) 88%
+  );
 }
 
 .footer .content .social i.fa-twitter:hover {
-  background: #1da1f2;
+  background: linear-gradient(
+    135deg,
+    rgba(198, 48, 201, 1) 0%,
+    rgba(51, 157, 220, 1) 88%
+  );
 }
 
 .footer .content .social i.fa-linkedin-in:hover {
-  background: #0a66c2;
+  background: linear-gradient(
+    135deg,
+    rgba(198, 48, 201, 1) 0%,
+    rgba(51, 157, 220, 1) 88%
+  );
 }
 
 .footer .content .text {
@@ -73,7 +88,13 @@
   font-size: 1.1rem;
   text-align: center;
   border-radius: 50%;
-  color: #26b6ca;
+  background: linear-gradient(
+    135deg,
+    rgba(198, 48, 201, 1) 0%,
+    rgba(51, 157, 220, 1) 88%
+  );
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 @media (max-width: 700px) {

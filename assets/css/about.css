@@ -1,5 +1,5 @@
 .about {
-  --font-color: #040A3D;
+  --font-color: #040a3d;
   --bg-color: #fff;
 
   padding-left: 5rem;
@@ -81,7 +81,11 @@
   font-weight: 700;
   font-size: 1rem;
   color: var(--bg-color);
-  background: #040A3D;
+  background: linear-gradient(
+    135deg,
+    rgba(198, 48, 201, 0.8) 0%,
+    rgba(51, 157, 220, 0.8) 88%
+  );
   transition: all 0.3s;
 
   display: flex;
@@ -90,7 +94,11 @@
 }
 
 .about .read-btn:hover {
-  background: #1525b6;
+  background: linear-gradient(
+    135deg,
+    rgba(198, 48, 201, 1) 0%,
+    rgba(51, 157, 220, 1) 88%
+  );
 }
 
 @media (max-width: 600px) {
@@ -129,7 +137,7 @@
     font-weight: 700;
     font-size: 1rem;
     color: var(--bg-color);
-    background: #040A3D;
+    background: #040a3d;
     transition: all 0.3s;
 
     display: flex;

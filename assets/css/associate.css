@@ -1,6 +1,6 @@
 .section.associate {
   --font-color: #fff;
-  --bg-color: #040A3D;
+  --bg-color: #212121;
 
   background: var(--bg-color);
   color: var(--font-color);
@@ -15,7 +15,11 @@
 }
 
 .section.associate .title::after {
-  background: var(--font-color);
+  background: linear-gradient(
+    135deg,
+    rgba(198, 48, 201, 1) 0%,
+    rgba(51, 157, 220, 1) 88%
+  );
 }
 
 .section.associate .container .card {

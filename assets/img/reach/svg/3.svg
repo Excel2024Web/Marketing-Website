@@ -3,16 +3,16 @@
 <circle cx="137.5" cy="155" r="2.5" fill="url(#paint1_linear_17_87)"/>
 <defs>
 <linearGradient id="paint0_linear_17_87" x1="22" y1="22" x2="187.864" y2="167.235" gradientUnits="userSpaceOnUse">
-<stop offset="0.49069" stop-color="#C630C9"/>
-
-<stop offset="0.83676" stop-color="#339DDC"/>
-<stop offset="1" stop-color="#47DDCD"/>
+<stop stop-color="#F16BF3cc"/>
+<stop offset="0.359375" stop-color="#C630C9aa"/>
+<stop offset="0.754167" stop-color="#339DDC"/>
+<stop offset="1" stop-color="#3696CFee"/>
 </linearGradient>
 <linearGradient id="paint1_linear_17_87" x1="135" y1="152.5" x2="140.301" y2="157.157" gradientUnits="userSpaceOnUse">
-<stop offset="0.49069" stop-color="#C630C9"/>
-
-<stop offset="0.83676" stop-color="#339DDC"/>
-<stop offset="1" stop-color="#47DDCD"/>
+<stop stop-color="#F16BF3cc"/>
+<stop offset="0.359375" stop-color="#C630C9aa"/>
+<stop offset="0.754167" stop-color="#339DDC"/>
+<stop offset="1" stop-color="#3696CFee"/>
 </linearGradient>
 </defs>
 </svg>

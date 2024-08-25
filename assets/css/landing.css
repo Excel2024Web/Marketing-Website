@@ -1,13 +1,13 @@
 .landing {
   position: relative;
-  height: 100vh;
-  background: #212121;
-
-  background-image: url("../img/landing.svg");
-  background-color: #212121;
+  height: 104vh;
+  background: #030117;
+  margin-top: -3.9rem;
+  background-image: url("../img/landing.png");
+  background-color: #030117;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 90%;
+  background-size: 100%;
 
   display: flex;
   align-items: center;
@@ -15,6 +15,8 @@
 
   overflow: hidden;
   transition: all 0.5s;
+  top: -20px;
+  bottom:20px;
 }
 
 .landing .logo img {
@@ -29,7 +31,7 @@
 
 @media (max-width: 850px) {
   .landing {
-    background-size: 100%;
+    background-size: cover;
   }
 
   .landing .logo img {
@@ -39,8 +41,8 @@
 
 @media (max-width: 600px) {
   .landing {
-    background-image: url("../img/landing-mobile.svg");
-    background-size: 400px;
+    background-image: url("../img/landing-mobile.png");
+    background-size: cover;
 
     display: flex;
     align-items: center;

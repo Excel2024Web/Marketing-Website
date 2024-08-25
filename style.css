@@ -24,7 +24,7 @@ html {
 body {
   font-family: "Montserrat", sans-serif;
   min-height: 100vh;
-  background: linear-gradient(to bottom, #212121 0% 20%, #ffffff 20% 100%);
+  background:white;
   overflow-x: hidden;
   --grad: linear-gradient(
     135deg,
@@ -41,11 +41,15 @@ body {
   }
 
   ::-webkit-scrollbar-thumb {
-    background: #212121;
+    background: linear-gradient(
+      135deg,
+      rgba(198, 48, 201, 1) 0%,
+      rgba(51, 157, 220, 1) 88%
+    );
   }
 
   ::-webkit-scrollbar-thumb:hover {
-    background: #212121;
+    background:rgba(198, 48, 201, 1) 0%;
   }
 
   ::-webkit-scrollbar-track {

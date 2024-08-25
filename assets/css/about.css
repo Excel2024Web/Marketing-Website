@@ -137,7 +137,11 @@
     font-weight: 700;
     font-size: 1rem;
     color: var(--bg-color);
-    background: #040a3d;
+    background:linear-gradient(
+      135deg,
+      rgba(198, 48, 201, 0.8) 0%,
+      rgba(51, 157, 220, 0.8) 88%
+    );
     transition: all 0.3s;
 
     display: flex;

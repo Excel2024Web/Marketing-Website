@@ -32,7 +32,7 @@
   position: absolute;
   left: 2rem;
   width: 50px;
-  height: 50px;
+  height: 35px;
   transition: opacity 0.3s;
 }
 
@@ -164,7 +164,6 @@
     border-radius: 3px;
     width: 20px;
     background: linear-gradient(to right, #f16bf3, #c630c9, #339ddc, #3696cf);
-    /* background: #3696cf; */
     transition: all 0.3s;
     transform: translate(-50%, -8px) scaleX(0);
     animation: expand 0.2s linear 1 forwards;

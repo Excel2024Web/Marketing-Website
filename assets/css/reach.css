@@ -1,6 +1,6 @@
 .section.reach {
   --font-color: #fff;
-  --bg-color: #212121;
+  --bg-color: black;
 
   background: var(--bg-color);
   color: var(--font-color);
@@ -15,7 +15,11 @@
 }
 
 .section.reach .title::after {
-  background: linear-gradient(135deg, rgba(198,48,201,1) 0%, rgba(51,157,220,1) 88%);;
+  background: linear-gradient(
+    135deg,
+    rgba(198, 48, 201, 1) 0%,
+    rgba(51, 157, 220, 1) 88%
+  );
 }
 
 .section.reach .container .card {

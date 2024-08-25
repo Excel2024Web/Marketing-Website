@@ -1,5 +1,5 @@
 .section.news {
-  --font-color: #212121;
+  --font-color: black;
   --bg-color: #fff;
 
   background: var(--bg-color);
@@ -107,7 +107,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #212121;
+  background: black;
 }
 
 .news .container .card:hover {

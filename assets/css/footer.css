@@ -1,7 +1,7 @@
 /* Footer */
 
 .footer {
-  background: #212121;
+  background: black;
   padding: 1.5rem 2rem;
   display: flex;
   justify-content: space-between;
@@ -34,12 +34,12 @@
   gap: 0.7rem;
   font-size: 1.2rem;
 }
-.fab.fa-twitter{
-	font-family:sans-serif;
+.fab.fa-twitter {
+  font-family: sans-serif;
 }
-.fab.fa-twitter::before{
-	content:"𝕏";
-	font-size:1.2em;
+.fab.fa-twitter::before {
+  content: "𝕏";
+  font-size: 1.2em;
 }
 .footer .content .social i {
   width: 40px;

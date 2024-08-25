@@ -83,8 +83,8 @@
   color: var(--bg-color);
   background: linear-gradient(
     135deg,
-    rgba(198, 48, 201, 0.8) 0%,
-    rgba(51, 157, 220, 0.8) 88%
+    rgba(198, 48, 201, 1) 0%,
+    rgba(51, 157, 220, 1) 88%
   );
   transition: all 0.3s;
 
@@ -94,11 +94,13 @@
 }
 
 .about .read-btn:hover {
-  background: linear-gradient(
+  /* background: linear-gradient(
     135deg,
-    rgba(198, 48, 201, 1) 0%,
-    rgba(51, 157, 220, 1) 88%
-  );
+    rgba(198, 48, 201, 0.8) 0%,
+    rgba(51, 157, 220, 0.8) 88%
+  ); */
+  /* color: black; */
+  scale: 1.025;
 }
 
 @media (max-width: 600px) {
@@ -109,7 +111,7 @@
 
   .about .logo img {
     height: 100%;
-   
+
     object-fit: cover;
   }
 
@@ -137,7 +139,7 @@
     font-weight: 700;
     font-size: 1rem;
     color: var(--bg-color);
-    background:linear-gradient(
+    background: linear-gradient(
       135deg,
       rgba(198, 48, 201, 0.8) 0%,
       rgba(51, 157, 220, 0.8) 88%

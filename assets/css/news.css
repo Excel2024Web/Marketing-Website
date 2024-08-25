@@ -117,8 +117,8 @@
 .news .container .card .read-btn:hover {
   background: linear-gradient(
     135deg,
-    rgba(198, 48, 201, 0.75) 0%,
-    rgba(51, 157, 220, 0.75) 88%
+    rgba(198, 48, 201, 1) 0%,
+    rgba(51, 157, 220, 1) 88%
   );
   /* background: #3696cf; */
   color: var(--bg-color);

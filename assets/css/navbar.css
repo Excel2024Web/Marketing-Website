@@ -163,7 +163,14 @@
     height: 3px;
     border-radius: 3px;
     width: 20px;
-    background: linear-gradient(to right, #f16bf3, #c630c9, #339ddc, #3696cf);
+    background: linear-gradient(
+      to right,
+      rgba(241, 103, 243, 0.8),
+      rgba(198, 48, 201, 0.8),
+      rgba(51, 157, 220, 0.8),
+      rgba(54, 150, 207, 0.8)
+    );
+    /* background: linear-gradient(135 deg, ) */
     transition: all 0.3s;
     transform: translate(-50%, -8px) scaleX(0);
     animation: expand 0.2s linear 1 forwards;

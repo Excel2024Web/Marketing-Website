@@ -1,6 +1,7 @@
 .section.news {
   --font-color: black;
   --bg-color: #fff;
+  --grad-color: rgba(198, 48, 201, 1) 0%;
 
   background: var(--bg-color);
   gap: 4rem;
@@ -26,7 +27,7 @@
   cursor: pointer;
   /* transition: all 0.3s; */
 
-  border: 3px solid var(--font-color);
+  border: 3px solid rgba(198, 48, 201, 0.2);
 }
 
 .news .container .card .paper {
@@ -101,27 +102,21 @@
 
   font-weight: 700;
   font-size: 1rem;
-  color: var(--bg-color);
+  color: black;
   transition: all 0.3s;
 
   display: flex;
   align-items: center;
   justify-content: center;
-  background: black;
+  background: rgba(51, 157, 220, 0.2);
 }
 
 .news .container .card:hover {
-  border: 3px solid var(--font-color);
+  border: 3px solid rgba(198, 48, 201, 0.3);
 }
 
 .news .container .card .read-btn:hover {
-  background: linear-gradient(
-    135deg,
-    rgba(198, 48, 201, 1) 0%,
-    rgba(51, 157, 220, 1) 88%
-  );
-  /* background: #3696cf; */
-  color: var(--bg-color);
+  background: rgba(51, 157, 220, 0.3);
 }
 
 @media (max-width: 600px) {

@@ -1,6 +1,10 @@
 .section.associate {
-  --font-color: #fff;
-  --bg-color: black;
+  --font-color: black;
+  --bg-color: linear-gradient(
+    135deg,
+    rgba(198, 48, 201, 0.1) 0%,
+    rgba(51, 157, 220, 0.1) 88%
+  );
 
   background: var(--bg-color);
   color: var(--font-color);
@@ -31,11 +35,14 @@
   align-items: center;
   gap: 0.8rem;
   overflow: hidden;
-  background: var(--font-color);
   color: black;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
   /* transition: transform 0.3s; */
   /* cursor: pointer; */
+}
+
+.section.associate .container :hover {
+  scale: 1.005;
 }
 
 .section.associate .container .card .pic {
@@ -44,7 +51,7 @@
   justify-content: center;
   width: 100%;
   padding: 1rem 0;
-  background: var(--font-color);
+  /* background: var(--font-color); */
 }
 
 .section.associate .container .card img {

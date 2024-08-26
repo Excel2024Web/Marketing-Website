@@ -63,6 +63,7 @@
   font-weight: 700;
   font-size: 1.2rem;
   cursor: pointer;
+  text-align: center;
 }
 
 .section.associate .container .card .para {

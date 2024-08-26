@@ -47,12 +47,14 @@
 .section.reach .container .card .heading {
   font-weight: 700;
   font-size: 1.1rem;
+  text-align: center;
 }
 
 .section.reach .container .card .para {
   margin-top: -0.5rem;
   font-weight: 600;
   font-size: 0.9rem;
+  text-align: center;
 }
 
 @media (min-width: 700px) {

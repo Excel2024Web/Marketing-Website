@@ -76,7 +76,9 @@
 
   .scrolled {
     --bg: #fff;
+    
   }
+
 
   .navbar .logo {
     opacity: var(--opacity);
@@ -87,7 +89,7 @@
 
   .navbar .icon {
     -webkit-tap-highlight-color: transparent;
-    color: var(--color);
+    color: #3696cf;
     cursor: pointer;
     font-size: 1.5rem;
     width: 30px;
@@ -118,24 +120,25 @@
   }
 
   .navbar .menu {
-    position: absolute;
+    position: fixed;
+    overflow: hidden;
     left: 50%;
     width: 100%;
     height: 100vh;
     padding: 2rem;
     top: 0;
-    z-index: -1;
+    z-index:-1;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    color: #f16bf3;
+    color: #3696cf;
     background: #fff;
     transform: translate(-50%, -120%);
     transition: all 0.5s;
   }
 
   .navbar .menu .item {
-    color: #f16bf3;
+    color: #3696cf;
     font-size: 1rem;
   }
 }

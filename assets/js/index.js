@@ -228,3 +228,10 @@ for (let i = 0; i < menuItems.length; i++) {
     current = i;
   });
 }
+// let container=news.querySelector(".container");
+// let card=container.querySelector(".card");
+// let readbtn=card.querySelector(".read-btn-news");
+// card.addEventListener("mouseover", () => {
+//   readbtn.innerHTML = ;
+// });
+

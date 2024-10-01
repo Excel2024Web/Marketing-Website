@@ -13,21 +13,25 @@
 
 .section.news .container .card {
   position: relative;
-
+  background: linear-gradient(
+    135deg,
+    white,
+    rgba(51, 158, 220, 0.146) 88%
+  );
   width: 300px;
   border-radius: 10px;
-  padding: 1rem;
-  background: var(--bg-color);
+  /* padding: 1rem; */
+  
   color: var(--font-color);
 
   display: flex;
   flex-direction: column;
   gap: 1rem;
-
+  box-shadow: 5px rgba(0, 0, 0, 0.2) ;
   cursor: pointer;
   /* transition: all 0.3s; */
 
-  border: 3px solid rgba(198, 48, 201, 0.2);
+  /* border: 3px solid rgba(198, 48, 201, 0.2); */
 }
 
 .news .container .card .paper {
@@ -49,7 +53,9 @@
   background: var(--bg-color);
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
-
+.read-btn {
+  transition: all 0.5s ease; /* Transition speed for any changes */
+}
 .news .container .card .paper .paper-dp {
   width: 30px;
   height: 30px;
@@ -76,6 +82,7 @@
   justify-content: space-between;
   color: var(--font-color);
   opacity: 0.7;
+  padding:1rem 1rem 0rem ;
 }
 
 .news .container .card .tagline i {
@@ -92,6 +99,8 @@
   font-weight: 700;
   font-size: 1.1rem;
   height: 90px;
+  padding-left:1.5rem;
+  padding-right: 1.5rem;
 }
 
 .news .container .card .read-btn {
@@ -112,7 +121,7 @@
 }
 
 .news .container .card:hover {
-  border: 3px solid rgba(198, 48, 201, 0.3);
+  border: 3px solid rgba(51, 157, 220, 0.3) ;
 }
 
 .news .container .card .read-btn:hover {

@@ -5,6 +5,7 @@
   padding-left: 5rem;
   background: var(--bg-color);
   overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 .section.about {

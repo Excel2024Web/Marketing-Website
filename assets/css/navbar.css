@@ -1,7 +1,7 @@
 .navbar {
   --bg: transparent;
   --text: #fff;
-  --color: #f16bf3;
+  --color: #752a76;
   --opacity: 0;
 
   position: sticky;
@@ -19,9 +19,10 @@
   transition: all 0.5s;
 }
 
+
 .scrolled {
   --bg: #fff;
-  --text: #f16bf3;
+  --text: #752a76;
   --opacity: 1;
 
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
@@ -153,7 +154,7 @@
     background-clip: text;
   }
   .navbar .menu .item.active {
-    color: var(--color);
+    
     position: relative;
     background: inherit;
   }

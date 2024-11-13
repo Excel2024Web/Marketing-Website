@@ -46,6 +46,7 @@ body {
       rgba(198, 48, 201, 1) 0%,
       rgba(51, 157, 220, 1) 88%
     );
+    border-radius: 0.5rem;
   }
 
   ::-webkit-scrollbar-thumb:hover {

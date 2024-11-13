@@ -10,9 +10,9 @@ const navbar = document.querySelector(".navbar");
 const landing = document.querySelector(".landing");
 const about = document.querySelector(".about");
 const associate = document.querySelector(".associate");
+const partners = document.querySelector(".title-partners");
 const reach = document.querySelector(".reach");
 const news = document.querySelector(".news");
-const partners = document.querySelector(".partners");
 const gallery = document.querySelector(".gallery");
 const contacts = document.querySelector(".contact");
 
@@ -20,9 +20,9 @@ const sections = [
   landing,
   about,
   associate,
+  partners,
   reach,
   news,
-  partners,
   gallery,
   contacts,
 ];
@@ -234,4 +234,3 @@ for (let i = 0; i < menuItems.length; i++) {
 // card.addEventListener("mouseover", () => {
 //   readbtn.innerHTML = ;
 // });
-

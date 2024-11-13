@@ -91,13 +91,13 @@
 }
 
 .news .container .card .tagline span {
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   font-weight: 600;
 }
 
 .news .container .card .news-title {
-  font-weight: 700;
-  font-size: 1.1rem;
+  font-weight: 550;
+  font-size: 1rem;
   height: 90px;
   padding-left:1.5rem;
   padding-right: 1.5rem;
@@ -109,7 +109,7 @@
   border-radius: 5px;
   cursor: pointer;
 
-  font-weight: 700;
+  font-weight: 550;
   font-size: 1rem;
   color: black;
   transition: all 0.3s;

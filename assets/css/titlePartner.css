@@ -4,10 +4,16 @@
   --color: #26b6ca;
   padding: 5rem 0;
   background: var(--bg-color);
-
+ 
   gap: 4rem;
 }
-
+.logos{
+  width:60%;
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+  justify-content: space-evenly;
+}
 .section.title-partners .container {
   width: 200px;
   height: 200px;

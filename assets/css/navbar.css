@@ -178,6 +178,7 @@
       rgba(198, 48, 201, 1) 0%,
       rgba(51, 157, 220, 1) 88%
     );
+    background: #8952b4;
     transition: all 0.3s;
     transform: translate(-50%, -8px) scaleX(0);
     animation: expand 0.2s linear 1 forwards;

@@ -71,8 +71,8 @@
     justify-content: space-evenly;
   }
   .section.title-partners .container {
-    height: 175px;
-    width: 175px;
+    height: 180px;
+    width: 180px;
   }
 }
 @media (max-width: 500px) {
@@ -93,8 +93,8 @@
     justify-content: space-evenly;
   }
   .section.title-partners .container {
-    height: 150px;
-    width: 150px;
+    height: 180px;
+    width: 180px;
   }
   .section.title-partners .content .para {
     font-size: 0.9rem;

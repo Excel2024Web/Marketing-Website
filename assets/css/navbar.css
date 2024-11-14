@@ -1,7 +1,7 @@
 .navbar {
   --bg: transparent;
   --text: #fff;
-  --color: #8952b4;
+  --color: #9455d0;
   --opacity: 0;
 
   position: sticky;
@@ -21,7 +21,7 @@
 
 .scrolled {
   --bg: #fff;
-  --text: #8952b4;
+  --text: #9455d0;
   --opacity: 1;
 
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
@@ -87,7 +87,7 @@
 
   .navbar .icon {
     -webkit-tap-highlight-color: transparent;
-    color: #8952b4;
+    color: #9455d0;
     cursor: pointer;
     font-size: 1.5rem;
     width: 30px;
@@ -129,14 +129,14 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    color: #8952b4;
+    color: #9455d0;
     background: #fff;
     transform: translate(-50%, -120%);
     transition: all 0.5s;
   }
 
   .navbar .menu .item {
-    color: #8952b4;
+    color: #9455d0;
     font-size: 1rem;
   }
 }
@@ -146,7 +146,7 @@
     color: var(--color);
   }
   .navbar .menu .scrolled {
-    background: linear-gradient(to right, #f16bf3, #8952b4, #339ddc, #3696cf);
+    background: linear-gradient(to right, #f16bf3, #9455d0, #339ddc, #3696cf);
     -webkit-text-fill-color: transparent;
     background-clip: text;
   }
@@ -178,7 +178,7 @@
       rgba(198, 48, 201, 1) 0%,
       rgba(51, 157, 220, 1) 88%
     );
-    background: #8952b4;
+    background: #9455d0;
     transition: all 0.3s;
     transform: translate(-50%, -8px) scaleX(0);
     animation: expand 0.2s linear 1 forwards;

@@ -19,11 +19,7 @@
 }
 
 .section.associate .title::after {
-  background: linear-gradient(
-    135deg,
-    rgba(198, 48, 201, 1) 0%,
-    rgba(51, 157, 220, 1) 88%
-  );
+  background: linear-gradient(135deg, #c630c9 0%, rgba(51, 157, 220, 1) 88%);
 }
 
 .section.associate .container .card {
